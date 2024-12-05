@@ -1,0 +1,84 @@
+
+.navbar-nav{
+    width: 500px;
+}
+#dropdown{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 170px;
+}
+#dropdown li{
+    padding-right: 20px;
+justify-content: space-around;
+}
+
+#basic-addon1{
+    width: 200px;
+    text-align: center;
+    
+}
+
+.card-img-top1{
+height: 200px;
+width: 200px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.card-img-top{
+    height: 200px;
+    width: 200px;
+}
+
+
+#cards1{
+    border: none;
+    padding: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    height: 400px;
+    justify-content:  space-around;
+    list-style-type: none;
+}
+#cards-div1{
+    margin-top: 100px;
+}
+#cards-div{
+    margin-top: 100px;
+}
+
+#cards{
+    padding: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#carouselExampleDark{
+    width: 900px;
+    height: 300px;
+    padding-left: 250px;
+    padding-right: 200px;
+align-content: center;
+}
+#carouselExampleDark1{
+padding-left: 180px;
+margin-top: -60px;
+}
+
+#h2{
+    padding-top: 150px;
+    padding-left: 450px;
+    /* padding-bottom: -200px; */
+}
+
+#cards-div1 h3,h6{
+    margin-left: 60px;
+}
+#cards-div h3,h6{
+    margin-left: 60px;
+}
+
