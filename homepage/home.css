@@ -28,8 +28,13 @@ justify-content: space-around;
     text-align: center;
     
 }
+.navbar.bg-body-tertiary{
+position: relative;
+left: -6px;
+
+}
 .container-fluid{
-  border: #000000c4;
+  background: #4c4c4c4c;
   /* background-color: #000000 */
 }
 .navbar-nav{
@@ -43,15 +48,17 @@ justify-content: space-around;
   /* padding-right:100px ; */
   /* padding: 10px; */
 }
-
+.navbar.navbar-expand-lg.bg-body-tertiary{
+}
 .login-btn{
   position: relative;
   left: 50px;
   top: -10px;
   border-radius: 9px;
   padding: 10px;
-  color: #000;
-  border:rgba(113, 111, 111, 0.302) 1px solid;
+  color: #ffffff;
+  background: #1f1f1f;
+  border:rgba(24, 24, 24, 0.302) 1px solid;
 }
 .card-img-top1{
 height: 200px;
@@ -73,6 +80,7 @@ width: 200px;
     height: 400px;
     justify-content:  space-around;
     list-style-type: none;
+    background: #87CEEB;
 }
 #cards-div1{
     margin-top: 100px;
