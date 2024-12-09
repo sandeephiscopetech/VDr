@@ -81,18 +81,42 @@ width: 200px;
     height: 400px;
     justify-content:  space-around;
     list-style-type: none;
-    background: #84d9fb;
-}
+    /* background: #84d9fb; */
+    background-image: url("./images/stethescopebluebg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode:exclusion; */
+  }
 #cards-div1{
-    margin-top: 100px;
+    margin-top: 50px;
+    padding: 20px;
+  height: 500px;    
+    /* border: #000000; */
+}
+.cards1{
+  height: 500px;
+  padding-bottom: 150px;
 }
 #cards-div{
     margin-top: 100px;
 }
+.card1{
+  background: #d5d5d576;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content:center space-evenly;
+  flex-flow: column;
+  padding: 20px;
+  padding-right: 50px;
+  border-radius: 10px;
+  box-shadow:0 9px 10px 1px #00000097;
+}
 
 #cards{
     padding: 50px;
-    /* border: 1px solid black; */
+    border: 1px solid rgba(91, 91, 91, 0.384);
     display: flex;
     height: 400px;
     justify-content: space-around;
@@ -109,8 +133,14 @@ width: 200px;
 #cards-div1 h3,h6{
     margin-left: 60px;
 }
-#cards-div h3,h6{
+#cards-div h3{
     margin-left: 60px;
+    /* margin-bottom: 200px; */
+}
+#cards-div h6{
+    margin-left: 60px;
+    position: relative;
+    top: -90px;
 }
 
 
